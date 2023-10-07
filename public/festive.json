@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "name": "Pohela Boishakh",
+      "description": "Pohela Boishakh, also known as Bengali New Year, is a colorful celebration of the first day of the Bengali calendar. It marks the arrival of spring and is celebrated with traditional music, dance, and cultural programs.",
+      "event": "Grand Boishakhi Mela (Fair) in Dhaka",
+      "ticket_price": "Free",
+      "image": "https://i.ibb.co/hF79Wpq/images-3.jpg",
+      "foods": [
+        {
+          "name": "Pitha",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Fuska",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Chingri Malaikari",
+          "price": "Price Varies"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bosonto",
+      "description": "Bosonto, or Spring Festival, is a time to celebrate the beauty of nature as it blooms with colorful flowers. It is a season of joy and renewal.",
+      "event": "Spring Picnics and Cultural Events",
+      "ticket_price": "Varies",
+      "image": "https://i.ibb.co/ZgxQY4W/download.jpg",
+      "foods": [
+        {
+          "name": "Bhorta",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Hilsa Fish Curry",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Misti Doi",
+          "price": "Price Varies"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bijoy Dibosh",
+      "description": "Bijoy Dibosh, also known as Victory Day, commemorates the victory of Bangladesh in the 1971 Liberation War. It's a day of national pride and celebration.",
+      "event": "Parades, Cultural Programs, and Memorial Services",
+      "ticket_price": "Free",
+      "image": "https://i.ibb.co/rFFNMxz/images-2.jpg",
+      "foods": [
+        {
+          "name": "Biriyani",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Kebabs",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Mishti (Sweets)",
+          "price": "Price Varies"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pitha Utshob",
+      "description": "Pitha Utsab is a traditional festival dedicated to various types of rice cakes and sweets, known as 'Pitha.' It's a time to savor these delicious treats.",
+      "event": "Pitha Making Competitions and Tastings",
+      "ticket_price": "Free",
+      "image": "https://i.ibb.co/K54pYR9/images-q-tbn-ANd9-Gc-Qsp-N2c-TEl-Jr-B4-OGkye0j-K0-Fmh-QKJNMPq-Uf-EA-usqp-CAU.jpg",
+      "foods": [
+        {
+          "name": "Pitha Varieties",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Payesh",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Jhalmuri",
+          "price": "Price Varies"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Nowka Baich",
+      "description": "Nowka Baich, or Boat Race, is a thrilling event where decorated boats race on rivers. It's a tradition that showcases the boatmanship of the region.",
+      "event": "Boat Races on Rivers",
+      "ticket_price": "Free",
+      "image": "https://i.ibb.co/VjLsWrX/images-q-tbn-ANd9-Gc-Tdk-Zl-QK-XSp-UP1-EOb-In-Gop3-Jj2-AZIPo-Nm7-IA-usqp-CAU.jpg",
+      "foods": [
+        {
+          "name": "Biryani",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Mezban",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Bhapa Pitha",
+          "price": "Price Varies"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Nobanno",
+      "description": "Nobanno, or Harvest Festival, is a time to celebrate the bountiful harvest. It includes traditional rituals, music, and dances.",
+      "event": "Harvest Rituals and Folk Performances",
+      "ticket_price": "Free",
+      "image": "https://i.ibb.co/t8JQr0J/images-1.jpg",
+      "foods": [
+        {
+          "name": "Rice Varieties",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Hilsa Fish",
+          "price": "Price Varies"
+        },
+        {
+          "name": "Vegetable Curries",
+          "price": "Price Varies"
+        }
+      ]
+    }
+  ]
