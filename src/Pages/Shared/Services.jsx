@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   const [services, setservices] = useState([]);
@@ -9,12 +10,12 @@ const Services = () => {
   });
   console.log(services);
   return (
-    <div>
-      <h1 className="text-2xl font-bold text-center mt-4 mb-6">Our Uthshob</h1>
-      <div className="grid grid-cols-1 md: grid-cols-3 gap-5">
+    <div className="">
+      <h1 className="text-2xl font-bold text-center p-5 mb-6 ">OUR UTHSHOB</h1>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 p-5">
         {services.map((service) => (
           <div key={service.id}>
-            <div className="card h-[64vh] bg-[#9E9E23] shadow-xl">
+            <div className="card lg:h-[64vh] bg-yellow-300 shadow-xl">
               <figure className="px-10 pt-10">
                 <img
                   src={service.image}
@@ -26,7 +27,7 @@ const Services = () => {
                 <h2 className="card-title">{service.name}</h2>
                 <p>{service.description.slice(0,80)}...</p>
                 <div className="card-actions">
-                  <button className="btn  font-bold text-white bg-[#D3B714] border-[#D3B714] hover:bg-[#D3B714]">View Event</button>
+                  <Link to={`/eventdetails/${service.id}`}><button className="btn  font-bold text-white bg-[#D3B714] border-[#D3B714] hover:bg-[#D3B714]">View Event</button></Link>
                 </div>
               </div>
             </div>

@@ -9,15 +9,24 @@
       "foods": [
         {
           "name": "Pitha",
-          "price": "Price Varies"
+          "price": "20",
+           "img":""
         },
         {
           "name": "Fuska",
-          "price": "Price Varies"
+          "price": "60",
+          "img":""
+        },
+        {
+          "name": "panta Ilish",
+          "price": "260",
+          "img":""
         },
         {
           "name": "Chingri Malaikari",
-          "price": "Price Varies"
+          "price": "200",
+          "img":""
+
         }
       ]
     },
@@ -31,15 +40,15 @@
       "foods": [
         {
           "name": "Bhorta",
-          "price": "Price Varies"
+          "price": "40"
         },
         {
           "name": "Hilsa Fish Curry",
-          "price": "Price Varies"
+          "price": "400"
         },
         {
           "name": "Misti Doi",
-          "price": "Price Varies"
+          "price": "350"
         }
       ]
     },
@@ -53,15 +62,15 @@
       "foods": [
         {
           "name": "Biriyani",
-          "price": "Price Varies"
+          "price": "120"
         },
         {
           "name": "Kebabs",
-          "price": "Price Varies"
+          "price": "100"
         },
         {
           "name": "Mishti (Sweets)",
-          "price": "Price Varies"
+          "price": "200"
         }
       ]
     },
@@ -75,15 +84,15 @@
       "foods": [
         {
           "name": "Pitha Varieties",
-          "price": "Price Varies"
+          "price": "100"
         },
         {
           "name": "Payesh",
-          "price": "Price Varies"
+          "price": "90"
         },
         {
           "name": "Jhalmuri",
-          "price": "Price Varies"
+          "price": "20"
         }
       ]
     },
@@ -97,15 +106,15 @@
       "foods": [
         {
           "name": "Biryani",
-          "price": "Price Varies"
+          "price": "150"
         },
         {
           "name": "Mezban",
-          "price": "Price Varies"
+          "price": "250"
         },
         {
           "name": "Bhapa Pitha",
-          "price": "Price Varies"
+          "price": "10"
         }
       ]
     },
@@ -119,15 +128,15 @@
       "foods": [
         {
           "name": "Rice Varieties",
-          "price": "Price Varies"
+          "price": "50"
         },
         {
           "name": "Hilsa Fish",
-          "price": "Price Varies"
+          "price": "600"
         },
         {
           "name": "Vegetable Curries",
-          "price": "Price Varies"
+          "price": "50"
         }
       ]
     }
