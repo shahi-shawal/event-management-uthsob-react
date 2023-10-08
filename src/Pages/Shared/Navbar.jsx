@@ -1,7 +1,14 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import './Navbar.css'
 import navbg from "/images/color.png"
+import { Toaster } from "react-hot-toast";
+import { useContext } from "react";
+import { AuthContex } from "../../Provider/AuthProvider";
 const Navbar = () => {
+    const {user, logout}= useContext(AuthContex)
+    const handelsignOut=()=>{
+       logout()
+    }
     const navlinks =<>
       <li className="font-bold"><NavLink to="/">Home</NavLink></li>
                       <li><NavLink to="/about">About</NavLink></li>
@@ -31,9 +38,21 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn opacity-80 font-bold text-white bg-[#D3B714] border-[#D3B714] hover:bg-[#D3B714]">Log in</a>
+    {
+      user? <>
+
+    <button onClick={handelsignOut} className="btn opacity-80 font-bold text-white bg-[#D3B714] border-[#D3B714] hover:bg-[#D3B714]">Sign Out</button>
+
+      </>
+      :
+      <Link to="/login">
+    <button className="btn opacity-80 font-bold text-white bg-[#D3B714] border-[#D3B714] hover:bg-[#D3B714]">Log in</button>
+    </Link>
+    }
+    
   </div>
 </div>
+ <Toaster/>
         </div>
     );
 };

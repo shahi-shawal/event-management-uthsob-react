@@ -4,6 +4,9 @@ import Home from "../Pages/Home";
 import Service from "../Pages/Service";
 import EventDetails from "../Components/EventDetails";
 import Foods from "../Components/Foods";
+import Login from "../Components/Login ";
+import Register from "../Components/Register";
+import PrivateRoute from "./PrivateRoute";
 
 
 const Router = createBrowserRouter([{
@@ -19,7 +22,9 @@ const Router = createBrowserRouter([{
     },
     {
         path:"/eventdetails/:id",
-        element:<EventDetails></EventDetails>,
+        element:<PrivateRoute>
+            <EventDetails></EventDetails>
+        </PrivateRoute>,
         loader:()=> fetch("/festive.json")
     },
     {
@@ -27,7 +32,16 @@ const Router = createBrowserRouter([{
         element:<Foods></Foods>,
         loader:()=> fetch("/festive.json")
 
+    },
+    {
+        path:"/login",
+        element:<Login></Login>
+    },
+    {
+        path:"/register",
+        element:<Register></Register>
     }
+
 ]
 }])
 
