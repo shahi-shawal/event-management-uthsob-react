@@ -11,7 +11,7 @@ const EventDetails = () => {
     return (
         <div className="">
             <Navbar></Navbar>
-            <div className="flex gap-6 p-4 bg-yellow-200">
+            <div className="flex flex-col lg:flex-row gap-6 p-4 bg-yellow-200">
                <div className="flex-1">
                <img src={detail.image} alt=""  className="w-full mx-auto rounded-lg" />
                <h1 className="text-2xl font-bold text-center">{detail.name}</h1>

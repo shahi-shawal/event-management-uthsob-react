@@ -8,7 +8,7 @@ const About = () => {
         <div> 
             <Navbar></Navbar>
             <h1 className="text-2xl p-5 text-center text-yellow-400 font-bold">About us</h1>
-            <div className="flex flex-row">
+            <div className="flex flex-col p-2 lg:p-0 lg:flex-row">
             <div className="flex-1">
              <img src={aboutbg} alt=""  />
             </div>

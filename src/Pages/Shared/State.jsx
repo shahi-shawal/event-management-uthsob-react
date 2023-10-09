@@ -1,8 +1,16 @@
 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 const State = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
     return (
-        <div>
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <div className=" shadow flex flex-col lg:flex-row lg:h-[30vh] lg:w-full">
   
   <div className="stat place-items-center">

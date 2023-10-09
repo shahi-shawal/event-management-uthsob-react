@@ -9,11 +9,14 @@ import Register from "../Components/Register";
 import PrivateRoute from "./PrivateRoute";
 import Booking from "../Pages/Booking";
 import About from "../Pages/About";
+import Blog from "../Pages/Blog";
+import Error from "../Pages/Error";
 
 
 const Router = createBrowserRouter([{
     path:"/",
     element:<Mainlayout></Mainlayout>,
+    errorElement:<Error></Error>,
     children:[{
         path:"/",
         element:<Home></Home>,
@@ -21,6 +24,10 @@ const Router = createBrowserRouter([{
     {
         path:"/about",
         element:<About></About>
+    },
+    {
+        path:"/blog",
+        element:<Blog></Blog>
     },
     {
         path:"/services",

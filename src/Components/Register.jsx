@@ -66,7 +66,7 @@ const Register = () => {
             <Navbar></Navbar>
             <div>
             <div className="hero min-h-screen bg-base-200">
-          <div className="hero-content flex-col lg:flex-row gap-5">
+          <div className="hero-content flex-col-reverse lg:flex-row gap-5">
             <div className="text-center lg:text-left">
               <div>
                 <img src={regimg} alt="" className="lg:h-[100vh] w-auto" />

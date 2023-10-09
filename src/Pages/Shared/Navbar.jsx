@@ -2,6 +2,7 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 import './Navbar.css'
 import navbg from "/images/color.png"
 import pp2 from  "/images/pp2.svg"
+import logo from "/images/logo.png"
 import { Toaster } from "react-hot-toast";
 import { useContext } from "react";
 import { AuthContex } from "../../Provider/AuthProvider";
@@ -16,9 +17,12 @@ const Navbar = () => {
       <li className="font-bold"><NavLink to="/">Home</NavLink></li>
                       <li><NavLink to="/about">About</NavLink></li>
                       <li><NavLink to="/services">Services</NavLink></li>
-                      <li><NavLink to="/blog">Blog</NavLink></li>
+                    
                       {
-                        user &&  <li><NavLink to="/booking">Booking</NavLink></li>
+                        user && <>  <li><NavLink to="/booking">Booking</NavLink></li>
+                        <li><NavLink to="/blog">Blog</NavLink></li>
+                      </>
+
                       }
       </>
     return (
@@ -34,7 +38,7 @@ const Navbar = () => {
        
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">Uthsob</a>
+    <img className="w-30 h-24" src={logo} alt=""  />
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className=" menu-horizontal px-1 text-white font-bold">
