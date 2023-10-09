@@ -28,7 +28,7 @@ const Foods = () => {
             <div className="card lg:h-[55vh] card-compact shadow-xl mt-4 bg-yellow-300">
               <div>
               <figure className="p-5">
-                <img src={food.img} alt="Shoes" className="h-3/4 rounded-lg "/>
+                <img  src={food.image} alt="Shoes" className="h-40 rounded-lg "/>
               </figure>
               </div>
               <div className="card-body mx-auto">

@@ -10,22 +10,22 @@
         {
           "name": "Pitha",
           "price": "20",
-           "img":"https://i.ibb.co/gPBnSLk/download-2.jpg"
+           "image":"https://i.ibb.co/gPBnSLk/download-2.jpg"
         },
         {
           "name": "Fuska",
           "price": "60",
-          "img":"https://i.ibb.co/t2R9k03/images-q-tbn-ANd9-Gc-R4k-D0-OFc-VNm-Vyk5ep-Nsv65-J47n3i-OB-G7g1-Q-usqp-CAU.jpg"
+          "image":"https://i.ibb.co/t2R9k03/images-q-tbn-ANd9-Gc-R4k-D0-OFc-VNm-Vyk5ep-Nsv65-J47n3i-OB-G7g1-Q-usqp-CAU.jpg"
         },
         {
           "name": "panta Ilish",
           "price": "260",
-          "img":"https://i.ibb.co/wNDrPWR/220px-Panta-Ilish.jpg"
+          "image":"https://i.ibb.co/wNDrPWR/220px-Panta-Ilish.jpg"
         },
         {
           "name": "Chingri Malaikari",
           "price": "200",
-          "img":"https://i.ibb.co/kKjPT3X/images-7.jpg"
+          "image":"https://i.ibb.co/kKjPT3X/images-7.jpg"
 
         }
       ]
@@ -40,15 +40,18 @@
       "foods": [
         {
           "name": "Bhorta",
-          "price": "40"
+          "price": "40",
+          "image":"https://i.ibb.co/8sB5Kjw/images-q-tbn-ANd9-Gc-RSXSoes-lu-Mi-XS54-L6y-RZJT7ju-Xpw-MQb-B8-Yg-usqp-CAU.jpg"
         },
         {
           "name": "Hilsa Fish Curry",
-          "price": "400"
+          "price": "400",
+          "image":"https://i.ibb.co/Y8x8tVs/55221449.jpg"
         },
         {
           "name": "Misti Doi",
-          "price": "350"
+          "price": "350",
+          "image":"https://i.ibb.co/6wq7xrL/images-q-tbn-ANd9-Gc-S6i0ju-Ml8-O9-PS09-Wnd-2no-Iieu3r1-Rhm3-Rq-A-usqp-CAU.jpg"
         }
       ]
     },
@@ -62,11 +65,13 @@
       "foods": [
         {
           "name": "Biriyani",
-          "price": "120"
+          "price": "120",
+          "image":"https://i.ibb.co/Sf9BfKN/images-q-tbn-ANd9-Gc-Tiddu5t-ES5-WBl-Tl-Ocpbzmj-UIm-H-p-ENGuvcig-usqp-CAU.jpg"
         },
         {
           "name": "Kebabs",
-          "price": "100"
+          "price": "100",
+          "image":"https://i.ibb.co/yk93fw3/images-q-tbn-ANd9-Gc-Sm-V3oz-ruh-Hh3nt82-R3yuj-Er-WFV-Uj9-Gy7-Lg-usqp-CAU.jpg"
         },
         {
           "name": "Mishti (Sweets)",
@@ -84,15 +89,18 @@
       "foods": [
         {
           "name": "Pitha Varieties",
-          "price": "100"
+          "price": "100",
+          "image":"https://i.ibb.co/gPBnSLk/download-2.jpg"
         },
         {
           "name": "Payesh",
-          "price": "90"
+          "price": "90",
+          "image":"https://i.ibb.co/pQJW7zM/images-q-tbn-ANd9-Gc-Qu1-Dw3-UVPBf-XIbo-D4v8e-Yc-ZXp-C9ftr3-z7-ZA-usqp-CAU.jpg"
         },
         {
           "name": "Jhalmuri",
-          "price": "20"
+          "price": "20",
+          "image":"https://i.ibb.co/zbjLXv3/images-q-tbn-ANd9-Gc-Q6-D2-Oo7-KXq-Oeqxz2g-XGx-Bl7-Zky-Pzn-Pdk-I5-A-usqp-CAU.jpg"
         }
       ]
     },
@@ -106,15 +114,18 @@
       "foods": [
         {
           "name": "Biryani",
-          "price": "150"
+          "price": "150",
+          "image":"https://i.ibb.co/Sf9BfKN/images-q-tbn-ANd9-Gc-Tiddu5t-ES5-WBl-Tl-Ocpbzmj-UIm-H-p-ENGuvcig-usqp-CAU.jpg"
         },
         {
           "name": "Mezban",
-          "price": "250"
+          "price": "250",
+          "image":"https://i.ibb.co/TPpkW60/images-q-tbn-ANd9-Gc-Rh-OHNr-VRVNl-PHyd-Ek-N5j-Fo-QBBk4-O2-Fbe-FX5-A-usqp-CAU.jpg"
         },
         {
           "name": "Bhapa Pitha",
-          "price": "10"
+          "price": "10",
+          "image":"https://i.ibb.co/zx0nyS2/images-q-tbn-ANd9-Gc-Qxf-ujjgas-PKLWm-NWWU00-Ejsv-Kx-GL-DAq-HJA-usqp-CAU.jpg"
         }
       ]
     },
@@ -128,15 +139,18 @@
       "foods": [
         {
           "name": "Rice Varieties",
-          "price": "50"
+          "price": "50",
+          "image":"https://i.ibb.co/h1McFbM/images-q-tbn-ANd9-Gc-RTCK1-MJjc3-YKR6-Oq-J9f4-Pmqz-SCIm-Nxmmfou-Q-usqp-CAU.jpg"
         },
         {
           "name": "Hilsa Fish",
-          "price": "600"
+          "price": "600",
+          "image":"https://i.ibb.co/Y8x8tVs/55221449.jpg"
         },
         {
           "name": "Vegetable Curries",
-          "price": "50"
+          "price": "50",
+          "image":"https://i.ibb.co/K6cCk79/images-q-tbn-ANd9-Gc-ST5-Gyp-AN0a-Qd-o5v-Wf-Ib3-Kx-QEOH1-KAPBC1-Q-usqp-CAU.jpg"
         }
       ]
     }
