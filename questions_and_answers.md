@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>greetign does not declar when you declar it a variable then answer is {} but this is time greetign answer is referenceError Because greetign have any variable  </i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i> a is intiger but b is string , when sum those a & b it will be answer is "12"  because string only join other but intiger only sum other so, string joining to intiger a and answer is "12  </i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>food declar a array  and info declar e object, info object key fovoritefood is array  index no 0, but info key change another element thats why food array does not change anything </i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>sayHi function does not declar value of name , thats why name is undefined </i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: 3
 
-<i>Write your explanation here</i>
+<i>In this code declar count is  0 and  deaclar a array is nums, nums is 4 element . when nums array is foreach loop and element passed the num. then condition is num not equal 0 then count increment by 1 ,, thats why 1,2,3 as a result ans is 3</i>
 
 </p>
 </details>
