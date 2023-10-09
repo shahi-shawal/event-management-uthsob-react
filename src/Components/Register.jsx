@@ -1,22 +1,24 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Navbar from "../Pages/Shared/Navbar";
 import regimg from "../../images/undraw_mobile_content_xvgr.svg"
 import { useContext } from "react";
 import { AuthContex } from "../Provider/AuthProvider";
 import { toast } from "react-hot-toast";
+import { updateProfile } from "firebase/auth";
 
 
 const Register = () => {
     const {createUser}= useContext(AuthContex)
-    
+    const navigate = useNavigate()
     const handelRegsubmit=e=>{
         e.preventDefault();
         const email = e.target.email.value
         const password = e.target.password.value
         const name = e.target.name.value
+        const photo = e.target.photo.value
         const accepted = e.target.terms.checked
 
-        console.log(email,password,name);
+        console.log(email,password);
 
 
         if (password > 6) {
@@ -36,14 +38,24 @@ const Register = () => {
 
          createUser(email, password)
          .then(result=> {
-            const cuser= result.user;
-          return  toast.success("Successfully register")
+            // const cuser= result.user;
+           toast.success("Successfully register")
+           updateProfile(result.user, {
+            displayName:name,
+            photoURL:photo
+           })
+           .then()
+           .catch()
+           navigate("/")
+           return 
          })
          .catch(error=>{
             console.error(error)
             toast.error("Check your email and password")
             return 
          } )
+
+        
   
 
          e.target.reset()
@@ -71,6 +83,18 @@ const Register = () => {
                     type="text"
                     name="name"
                     placeholder="Your Name"
+                    className="input input-bordered"
+                    required
+                  />
+                </div>
+                <div className="form-control">
+                  <label className="label">
+                    <span className="label-text">Photo URL</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="photo"
+                    placeholder="Photo URL"
                     className="input input-bordered"
                     required
                   />

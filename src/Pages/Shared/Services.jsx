@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import bgser from "../../../images/Colored Shapes (2).png"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Services = () => {
   const [services, setservices] = useState([]);
@@ -9,18 +12,25 @@ const Services = () => {
       .then((data) => setservices(data));
   });
   console.log(services);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <div className="">
-      <h1 className="text-2xl font-bold text-center p-5 mb-6 ">OUR UTHSHOB</h1>
+    <div className="bg-yellow-200">
+      <h1   className="text-2xl font-bold text-center p-5 ">OUR UTHSHOB</h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 p-5">
         {services.map((service) => (
           <div key={service.id}>
-            <div className="card lg:h-[64vh] bg-yellow-300 shadow-xl">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className="card lg:h-[64vh]  shadow-xl">
               <figure className="px-10 pt-10">
                 <img
                   src={service.image}
                   alt="Shoes"
                   className="rounded-xl"
+                  
                 />
               </figure>
               <div className="card-body items-center text-center">

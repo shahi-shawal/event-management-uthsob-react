@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
-import logimg from "../../images/undraw_completed_m9ci.svg";
+import logimg from "../../images/pp.svg";
 import Navbar from "../Pages/Shared/Navbar";
 import { useContext } from "react";
 import { useNavigate,useLocation } from 'react-router-dom';
 import { AuthContex } from "../Provider/AuthProvider";
-import { toast } from "react-hot-toast";
+import { toast } from "react-hot-toast";         
+import { FcGoogle  } from 'react-icons/fc';
 
 const Login = () => {
     const navigate = useNavigate()
     const location = useLocation()
-  const {login}= useContext(AuthContex)
+  const {login, googlelogin}= useContext(AuthContex)
     const handellogsubmit=e=>{
         e.preventDefault();
         const email = e.target.email.value
@@ -49,7 +50,12 @@ const Login = () => {
   
     }
 
-
+   const handelgooglelog=()=>{
+    googlelogin()
+    navigate(location?.state? location.state : "/")
+    toast.success("Log in successfully")
+     return
+   }
 
 
   return (
@@ -110,7 +116,7 @@ const Login = () => {
                     </span>
                   </Link>
                 </h1>
-
+               <button onClick={handelgooglelog} className="text-3xl mx-auto p-4 border bg-yellow-200 rounded-full hover:bg-gray-200"><FcGoogle /></button>
               </form>
             </div>
           </div>

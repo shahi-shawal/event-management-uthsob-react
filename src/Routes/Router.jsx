@@ -7,6 +7,7 @@ import Foods from "../Components/Foods";
 import Login from "../Components/Login ";
 import Register from "../Components/Register";
 import PrivateRoute from "./PrivateRoute";
+import Booking from "../Pages/Booking";
 
 
 const Router = createBrowserRouter([{
@@ -40,6 +41,11 @@ const Router = createBrowserRouter([{
     {
         path:"/register",
         element:<Register></Register>
+    },
+    {
+        path:"/booking",
+        element:<Booking></Booking>
+
     }
 
 ]

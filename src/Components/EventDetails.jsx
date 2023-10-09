@@ -1,5 +1,6 @@
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import Navbar from "../Pages/Shared/Navbar";
+import Footer from "../Pages/Footer";
 
 const EventDetails = () => {
     const details = useLoaderData()
@@ -10,12 +11,12 @@ const EventDetails = () => {
     return (
         <div className="">
             <Navbar></Navbar>
-            <div className="flex gap-6 h-screen p-4">
+            <div className="flex gap-6 p-4 bg-yellow-200">
                <div className="flex-1">
                <img src={detail.image} alt=""  className="w-full mx-auto rounded-lg" />
                <h1 className="text-2xl font-bold text-center">{detail.name}</h1>
                </div>
-                <div className="flex-1">
+                <div className="flex-1 ">
                 <p className="text-xl font-bold">{detail.description}</p>
                 <p className="text-xl font-bold text-[] mt-5 text-yellow-600">Event: {detail.event}</p>
                 <div className="flex flex-row gap-5 mt-5">
@@ -25,6 +26,7 @@ const EventDetails = () => {
                 </div>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
