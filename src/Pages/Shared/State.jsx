@@ -3,7 +3,7 @@
 const State = () => {
     return (
         <div>
-            <div className="stats shadow flex flex-col lg:flex-row  lg:w-full bg-[#9E9E23]">
+            <div className=" shadow flex flex-col lg:flex-row lg:h-[30vh] lg:w-full">
   
   <div className="stat place-items-center">
     <div className="stat-title">Total Event</div>

@@ -8,6 +8,7 @@ import Login from "../Components/Login ";
 import Register from "../Components/Register";
 import PrivateRoute from "./PrivateRoute";
 import Booking from "../Pages/Booking";
+import About from "../Pages/About";
 
 
 const Router = createBrowserRouter([{
@@ -16,6 +17,10 @@ const Router = createBrowserRouter([{
     children:[{
         path:"/",
         element:<Home></Home>,
+    },
+    {
+        path:"/about",
+        element:<About></About>
     },
     {
         path:"/services",
